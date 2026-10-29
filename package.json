@@ -1,5 +1,5 @@
 {
-  "name": "pi-observability-rawtree",
+  "name": "pi-observability",
   "version": "0.1.0",
   "type": "module",
   "description": "Pi extension that records agent runs (reasoning, tool calls, results, usage) in RawTree",
@@ -37,10 +37,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinybirdco/pi-observability-rawtree.git"
+    "url": "git+https://github.com/rawtreedb/pi-observability.git"
   },
-  "homepage": "https://github.com/tinybirdco/pi-observability-rawtree#readme",
+  "homepage": "https://github.com/rawtreedb/pi-observability#readme",
   "bugs": {
-    "url": "https://github.com/tinybirdco/pi-observability-rawtree/issues"
+    "url": "https://github.com/rawtreedb/pi-observability/issues"
   }
 }

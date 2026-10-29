@@ -1,4 +1,4 @@
-# pi-observability-rawtree
+# pi-observability
 
 Pi extension that exports agent, model-request and tool-call spans to RawTree's
 [OTLP endpoint](https://rawtree.com/docs/guides/opentelemetry), using
@@ -14,17 +14,17 @@ The package has no runtime dependencies and needs no npm publication for local u
 Install from Git; npm publication is not required:
 
 ```bash
-pi install git:github.com/tinybirdco/pi-observability-rawtree
+pi install git:github.com/rawtreedb/pi-observability
 export RAWTREE_API_KEY=...  # writable cluster API key
 export RAWTREE_DATABASE=default
 pi
 ```
 
 Append `@<commit-sha>` to the Git source for a pinned installation. For local development,
-run `pi -e /absolute/path/to/pi-observability-rawtree` or install that directory.
+run `pi -e /absolute/path/to/your/checkout` or install that directory.
 
 Local installs reference the directory; keep it available or remove it with
-`pi remove /absolute/path/to/pi-observability-rawtree`. Use `pi install --local` for project scope.
+`pi remove /absolute/path/to/your/checkout`. Use `pi install --local` for project scope.
 
 **Content capture is enabled by default.** Prompts, reasoning and tool results can
 contain private data; restrict database access. Set `RAWTREE_CAPTURE_CONTENT=false`
